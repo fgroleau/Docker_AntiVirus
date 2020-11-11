@@ -17,7 +17,7 @@ try :
     VirusKiller = clamd.ClamdUnixSocket()
     oldlist = list()
     newlist = list()
-    PathScan = getcwd()+"/Scan/"
+    PathScan = getcwd()+"/Scanned/"
     PathToScan = getcwd()+"/ToScan/"
     ThreadUpdate = Thread(target=UpdateClamAV)
     ThreadUpdate.start()
