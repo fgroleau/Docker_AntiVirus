@@ -1,4 +1,4 @@
-This image scan every file put in the ToScan folder and if the file is secure it will move it to the Scanned folder
+This image scan every file put in the ToScan folder and if the file is secure it will move it to the Scanned folder. The program also update the anti-virus database
 
 You can use the dockerhub version with :
 
