@@ -45,6 +45,7 @@ while True:
         else :
             oldlist = newlist
     except Exception as e:pass#print(str(e))
+    sleep(60)
 
 
 
